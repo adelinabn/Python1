@@ -1,0 +1,9 @@
+<OMOBJ>
+	<OMA>
+		<OMS cd="arith1" name="divide"/>
+		<OMI>18</OMI>
+		<OMF dec="0.5"/>		
+	</OMA>
+</OMOBJ>
+
+<!-- 18/0.5=36 -->

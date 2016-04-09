@@ -1,0 +1,24 @@
+
+<OMOBJ>
+    <OMA>
+        <OMS name='matrix' cd='linalg2' />
+        <OMA>
+            <OMS name='matrixrow' cd='linalg2' />
+            <OMI>1</OMI>
+            <OMI>3</OMI>
+            <OMI>2</OMI>
+        </OMA>
+        <OMA>
+            <OMS name='matrixrow' cd='linalg2' />
+            <OMI>42</OMI>
+            <OMI>6</OMI>
+            <OMI>5</OMI>
+        </OMA>
+        <OMA>
+            <OMS name='matrixrow' cd='linalg2' />
+            <OMI>0</OMI>
+            <OMI>-1</OMI>
+            <OMI>-100</OMI>
+        </OMA>
+    </OMA>
+</OMOBJ>

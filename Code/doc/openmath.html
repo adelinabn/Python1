@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module openmath</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>openmath</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/pschrempf/Documents/university/year2/semester2/CS2006/practicals/python1/src_final/openmath.py">/home/pschrempf/Documents/university/year2/semester2/CS2006/practicals/python1/src_final/openmath.py</a></font></td></tr></table>
+    <p><tt>Module&nbsp;contains&nbsp;methods&nbsp;for&nbsp;two&nbsp;way&nbsp;processing&nbsp;between&nbsp;OM&nbsp;files&nbsp;(or&nbsp;strings)&nbsp;and&nbsp;Python&nbsp;objects</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="xml.etree.ElementTree.html">xml.etree.ElementTree</a><br>
+<a href="arith_func.html">arith_func</a><br>
+</td><td width="25%" valign=top><a href="fractions.html">fractions</a><br>
+<a href="operator.html">operator</a><br>
+</td><td width="25%" valign=top><a href="posixpath.html">posixpath</a><br>
+<a href="types.html">types</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="openmath.html#PythonOM">PythonOM</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PythonOM">class <strong>PythonOM</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="PythonOM-__init__"><strong>__init__</strong></a>(self, pyth, omstring)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-OMprettystring"><strong>OMprettystring</strong></a>(obj, level)</dt><dd><tt>returns&nbsp;an&nbsp;OM&nbsp;string&nbsp;with&nbsp;appropriate&nbsp;indentation</tt></dd></dl>
+ <dl><dt><a name="-OMprint"><strong>OMprint</strong></a>(x)</dt><dd><tt>prints&nbsp;a&nbsp;python&nbsp;<a href="builtins.html#object">object</a>&nbsp;in&nbsp;OM&nbsp;format&nbsp;using&nbsp;pretty&nbsp;printing</tt></dd></dl>
+ <dl><dt><a name="-OMstring"><strong>OMstring</strong></a>(x)</dt><dd><tt>returns&nbsp;a&nbsp;python&nbsp;<a href="builtins.html#object">object</a>&nbsp;as&nbsp;a&nbsp;non-indented&nbsp;OM&nbsp;string</tt></dd></dl>
+ <dl><dt><a name="-ParseOMfile"><strong>ParseOMfile</strong></a>(fname)</dt><dd><tt>converts&nbsp;a&nbsp;file&nbsp;containing&nbsp;an&nbsp;OM&nbsp;string&nbsp;into&nbsp;a&nbsp;python&nbsp;<a href="builtins.html#object">object</a></tt></dd></dl>
+ <dl><dt><a name="-ParseOMstring"><strong>ParseOMstring</strong></a>(omstring)</dt><dd><tt>converts&nbsp;an&nbsp;OM&nbsp;string&nbsp;to&nbsp;a&nbsp;python&nbsp;<a href="builtins.html#object">object</a></tt></dd></dl>
+ <dl><dt><a name="-SubElement"><strong>SubElement</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-process"><strong>process</strong></a>(fileIN, fileOUT)</dt><dd><tt>processes&nbsp;the&nbsp;openmath&nbsp;contents&nbsp;of&nbsp;fileIN<br>
+&gt;&gt;&nbsp;converts&nbsp;result&nbsp;to&nbsp;openmath&nbsp;format<br>
+&gt;&gt;&nbsp;writes&nbsp;the&nbsp;result&nbsp;to&nbsp;fileOUT<br>
+&nbsp;<br>
+returns&nbsp;the&nbsp;result&nbsp;packaged&nbsp;into&nbsp;a&nbsp;<a href="#PythonOM">PythonOM</a>&nbsp;<a href="builtins.html#object">object</a>,<br>
+which&nbsp;contains&nbsp;the&nbsp;result&nbsp;in&nbsp;both&nbsp;formats</tt></dd></dl>
+ <dl><dt><a name="-putenv"><strong>putenv</strong></a>(...)</dt><dd><tt><a href="#-putenv">putenv</a>(key,&nbsp;value)<br>
+&nbsp;<br>
+Change&nbsp;or&nbsp;add&nbsp;an&nbsp;environment&nbsp;variable.</tt></dd></dl>
+ <dl><dt><a name="-reduce"><strong>reduce</strong></a>(...)</dt><dd><tt><a href="#-reduce">reduce</a>(function,&nbsp;sequence[,&nbsp;initial])&nbsp;-&gt;&nbsp;value<br>
+&nbsp;<br>
+Apply&nbsp;a&nbsp;function&nbsp;of&nbsp;two&nbsp;arguments&nbsp;cumulatively&nbsp;to&nbsp;the&nbsp;items&nbsp;of&nbsp;a&nbsp;sequence,<br>
+from&nbsp;left&nbsp;to&nbsp;right,&nbsp;so&nbsp;as&nbsp;to&nbsp;reduce&nbsp;the&nbsp;sequence&nbsp;to&nbsp;a&nbsp;single&nbsp;value.<br>
+For&nbsp;example,&nbsp;<a href="#-reduce">reduce</a>(lambda&nbsp;x,&nbsp;y:&nbsp;x+y,&nbsp;[1,&nbsp;2,&nbsp;3,&nbsp;4,&nbsp;5])&nbsp;calculates<br>
+((((1+2)+3)+4)+5).&nbsp;&nbsp;If&nbsp;initial&nbsp;is&nbsp;present,&nbsp;it&nbsp;is&nbsp;placed&nbsp;before&nbsp;the&nbsp;items<br>
+of&nbsp;the&nbsp;sequence&nbsp;in&nbsp;the&nbsp;calculation,&nbsp;and&nbsp;serves&nbsp;as&nbsp;a&nbsp;default&nbsp;when&nbsp;the<br>
+sequence&nbsp;is&nbsp;empty.</tt></dd></dl>
+ <dl><dt><a name="-unsetenv"><strong>unsetenv</strong></a>(...)</dt><dd><tt><a href="#-unsetenv">unsetenv</a>(key)<br>
+&nbsp;<br>
+Delete&nbsp;an&nbsp;environment&nbsp;variable.</tt></dd></dl>
+ <dl><dt><a name="-writeToFile"><strong>writeToFile</strong></a>(filename, str)</dt><dd><tt>writes&nbsp;string&nbsp;to&nbsp;file&nbsp;filename</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>P_NOWAIT</strong> = 1<br>
+<strong>P_NOWAITO</strong> = 1<br>
+<strong>P_WAIT</strong> = 0<br>
+<strong>ParseOMelementHandler</strong> = {'OMA': &lt;function ParseOMA&gt;, 'OMBIND': &lt;function ParseOMBIND&gt;, 'OME': &lt;function ParseOME&gt;, 'OMF': &lt;function ParseOMF&gt;, 'OMI': &lt;function ParseOMI&gt;, 'OMS': &lt;function ParseOMS&gt;, 'OMSTR': &lt;function ParseOMSTR&gt;}<br>
+<strong>SEEK_CUR</strong> = 1<br>
+<strong>SEEK_END</strong> = 2<br>
+<strong>SEEK_SET</strong> = 0<br>
+<strong>altsep</strong> = None<br>
+<strong>arithmetic_func</strong> = {'abs': &lt;built-in function abs&gt;, 'divide': &lt;function divide&gt;, 'factorial': &lt;function factorial&gt;, 'gcd': &lt;function gcd&gt;, 'lcm': &lt;function lcm&gt;, 'minus': &lt;function minus&gt;, 'plus': &lt;function plus&gt;, 'power': &lt;built-in function pow&gt;, 'product': &lt;function ar_product&gt;, 'root': &lt;function root&gt;, ...}<br>
+<strong>curdir</strong> = '.'<br>
+<strong>defpath</strong> = ':/bin:/usr/bin'<br>
+<strong>devnull</strong> = '/dev/null'<br>
+<strong>environb</strong> = environ({b'INFOPATH': b'/home/pschrempf/.linuxbr...s-deprecated', b'SESSIONTYPE': b'gnome-session'})<br>
+<strong>extsep</strong> = '.'<br>
+<strong>linesep</strong> = '<font color="#c040c0">\n</font>'<br>
+<strong>name</strong> = 'posix'<br>
+<strong>omdicts</strong> = {'arith1': {'abs': &lt;function oms_arith1_abs&gt;, 'divide': &lt;function oms_arith1_divide&gt;, 'gcd': &lt;function oms_arith1_gcd&gt;, 'lcm': &lt;function oms_arith1_lcm&gt;, 'minus': &lt;function oms_arith1_minus&gt;, 'plus': &lt;function oms_arith1_plus&gt;, 'power': &lt;function oms_arith1_power&gt;, 'product': &lt;function oms_arith1_product&gt;, 'root': &lt;function oms_arith1_root&gt;, 'sum': &lt;function oms_arith1_sum&gt;, ...}, 'arith2': {'inverse': &lt;omparse.OMErrorObj object&gt;}, 'complex1': {'complex_cartesian': &lt;function oms_complex1_cartesian&gt;}, 'fns1': {'lambda': &lt;function oms_fns1_lambda&gt;}, 'integer1': {'factorial': &lt;function oms_integer1_factorial&gt;}, 'interval1': {'integer_interval': &lt;function oms_interval1_interval&gt;}, 'linalg2': {'matrix': &lt;function oms_linalg2_matrix&gt;, 'matrixrow': &lt;function oms_linalg2_matrixRow&gt;}, 'list1': {'list': &lt;function oms_list1_list&gt;}, 'logic1': {'false': False, 'true': True}, 'nums1': {'infinity': &lt;function oms_nums1_infinity&gt;, 'rational': &lt;function oms_nums1_rational&gt;}}<br>
+<strong>pardir</strong> = '..'<br>
+<strong>pathsep</strong> = ':'<br>
+<strong>sep</strong> = '/'<br>
+<strong>singleArg</strong> = ['unary_minus', 'abs', 'factorial']<br>
+<strong>supports_bytes_environ</strong> = True</td></tr></table>
+</body></html>

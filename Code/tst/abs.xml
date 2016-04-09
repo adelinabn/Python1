@@ -1,0 +1,18 @@
+<OMOBJ>
+	 <OMA>
+	        <OMS cd="arith1" name="abs"/>
+		        <OMA>
+			        <OMS cd="arith1" name="minus"/>
+			        <OMI> -15 </OMI>
+					 <OMA>
+					        <OMS cd="arith1" name="minus"/>
+					        <OMI> 50 </OMI>
+					        <OMI> 20 </OMI>
+					 </OMA>
+				 </OMA>
+	 </OMA>
+</OMOBJ>
+
+
+<!-- -15-(50-20)=-45
+abs -45 =45 -->

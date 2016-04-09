@@ -1,0 +1,19 @@
+ 
+<OMOBJ>
+	 <OMA>
+	        <OMS cd="arith1" name="plus"/>
+	        <OMI> -75 </OMI>
+			<OMA>
+			        <OMS cd="arith1" name="minus"/>
+			        <OMI> 50 </OMI>
+			        <OMA>
+				        <OMS cd="arith1" name="unary_minus"/>
+				        <OMI> 20 </OMI>
+					</OMA>
+			</OMA>
+			  
+	 </OMA>
+</OMOBJ>
+
+
+<!-- -75+50-(-20)=-5 -->

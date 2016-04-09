@@ -1,0 +1,22 @@
+ 
+<OMOBJ>
+	 <OMA>
+	        <OMS cd="arith1" name="plus"/>
+	        <OMA>
+		        <OMS cd="arith1" name="gcd"/>
+		        <OMI> 10 </OMI>
+		        <OMI> 15 </OMI>
+			</OMA>
+			<OMA>
+		        <OMS cd="arith1" name="lcm"/>
+		        <OMI> 10 </OMI>
+		        <OMI> 15 </OMI>
+			</OMA>
+	 </OMA>
+</OMOBJ>
+
+
+<!-- gcd (10,15)=5
+lcm (30)
+
+lcm+gcd=35 -->

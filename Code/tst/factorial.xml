@@ -1,0 +1,18 @@
+<OMOBJ>
+        <OMA>
+                <OMS cd="integer1" name="factorial"/>
+		        <OMA>
+		                <OMS cd="integer1" name="factorial"/>
+		       			<OMA>
+			    			<OMS cd="arith1" name="plus"/>
+			                <OMI>10</OMI>
+			                <OMI>-7</OMI>
+		        		</OMA>
+		        </OMA>
+        </OMA>
+</OMOBJ>
+
+
+<!-- 
+3!= 6
+6! = 720-->

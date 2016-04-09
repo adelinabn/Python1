@@ -1,0 +1,14 @@
+<OMOBJ>
+	 <OMA>
+	        <OMS cd="arith1" name="power"/>
+	        <OMA>
+		        <OMS cd="arith1" name="power"/>
+		        <OMI> 10 </OMI>
+		        <OMI> -3 </OMI>
+		    </OMA>
+		    <OMI> -2 </OMI>
+	 </OMA>
+</OMOBJ>
+
+
+<!-- (1/0.001)^2 = 1 000 000 -->

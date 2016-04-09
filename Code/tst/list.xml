@@ -1,0 +1,9 @@
+<OMOBJ>
+        <OMA>
+                <OMS cd="list1" name="list"/>
+                <OMI>41</OMI>
+                <OMS cd="logic1" name="true"/>
+                <OMS cd="logic1" name="false"/>
+                <OMI>43</OMI>
+        </OMA>
+</OMOBJ>

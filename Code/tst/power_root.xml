@@ -1,0 +1,20 @@
+<OMOBJ>
+	 <OMA>
+	        <OMS cd="arith1" name="power"/>
+	        <OMA>
+		        <OMS cd="arith1" name="power"/>
+		        <OMA>
+			        <OMS cd="arith1" name="root"/>
+				    <OMI> 1000 </OMI>
+			        <OMI> 3 </OMI>
+				</OMA>
+		        <OMI> 2 </OMI>
+		    </OMA>
+		    <OMI> -1 </OMI>
+	 </OMA>
+</OMOBJ>
+
+
+<!-- (( 3rd root of 1000 )^ 2 ) ^ -1 = 0.01
+ -->
+
